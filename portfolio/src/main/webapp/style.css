@@ -4,6 +4,12 @@
   width: 650px;
 }
 
+#heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #greeting-container {
   margin-top: 20px;
 }
