@@ -1,0 +1,18 @@
+#content {
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FCF8F0;
+    color: #384934;
+}
+
+#heading {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #8FA187;
+    color: #F2EFBD;
+}
