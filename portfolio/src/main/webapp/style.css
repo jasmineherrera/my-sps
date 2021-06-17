@@ -1,5 +1,7 @@
 #content {
   margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: auto;
   width: auto;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -11,8 +13,8 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
-    margin-top:20px; 
+    margin-bottom: 0px;
+    margin-top:0px; 
     font-family: Helvetica, sans-serif;
     font-size: 30px;
     background-color: #8FA187;
