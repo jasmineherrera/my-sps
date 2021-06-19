@@ -40,3 +40,12 @@ function addRandomSoup() {
     const soupContainer = document.getElementById('soup-container');
     soupContainer.innerText = soup;
 }
+
+/** Fetches the current date from the server and adds it to the page. */
+async function showServerString() {
+  const responseFromServer = await fetch('/hello');
+  const textFromResponse = await responseFromServer.text();
+
+  const helloContainer = document.getElementById('hello-container');
+  helloContainer.innerText = textFromResponse;
+}
