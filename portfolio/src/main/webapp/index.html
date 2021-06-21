@@ -2,18 +2,41 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Jasmine's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
+    <div id ="heading">
+      <h1>JASMINE HERRERA</h1> </div>
+    <div id="toolbar">
+        <a href="projects.html">Projects</a>
+        <a href="photos.html">Photos</a>
+    </div>
+    <div id="photo">
+      <p><img src="/images/Headshot.jpeg" width="650" height=auto/> Herrera, Jasmine (circa 2020) </p> </div>
+      <div id = "aboutme">
+          <p>Hello and welcome to my portfolio. Stay a while!</p>
+          <p>I am a rising junior at Cornell University, majoring in computer science. 
+            One day, I hope to research the impact of modern technology on democracy. 
+            For now, I am learning how to create cool things. 
+            I was born and raised in San Diego, so in my free time I love to spend time 
+            outside--especially with friends. I surf, hike, run, and explore!</p> 
+      </div>
+
       <p>Click <a href="/hello">here</a> to see content created by server code.</p>
       <p>Click here to get a random message:</p>
       <button onclick="addRandomGreeting()">Hello</button>
       <div id="greeting-container"></div>
+      <p>Click here to get a random soup:</p>
+      <button onclick="addRandomSoup()">SOUP ME</button>
+      <div id="soup-container"></div>
+      <div id="links">
+      <p> <a href="https://www.linkedin.com/in/jasmineherrera1/">LinkedIn</a> | 
+        <a href="https://github.coecis.cornell.edu/jph284">Cornell GitHub</a> | 
+        <a href="https://github.com/jasmineherrera">Personal GitHub</a></p> 
+    </div>
     </div>
   </body>
 </html>

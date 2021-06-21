@@ -26,3 +26,17 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+
+/**
+ * Adds a random soup to the page.
+ */
+function addRandomSoup() {
+    const soups = ['tonkotsu ramen', 'french onion soup', 'tomato soup', 'chicken tortilla soup'];
+
+    //Pick a random soup. 
+    const soup = soups[Math.floor(Math.random() * soups.length)];
+
+    //Add it to the page. 
+    const soupContainer = document.getElementById('soup-container');
+    soupContainer.innerText = soup;
+}

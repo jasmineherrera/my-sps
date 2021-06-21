@@ -1,9 +1,49 @@
 #content {
   margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: auto;
-  width: 650px;
+  width: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #FCF8F0;
+  color: #384934;
 }
 
-#greeting-container {
-  margin-top: 20px;
+#heading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top:0px; 
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: #8FA187;
+    color: #F2EFBD;
+}
+
+#toolbar {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#photo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+#aboutme {
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 25px;
+    text-align: center;
+    width: 650px;
+}
+
+#links {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
 }
