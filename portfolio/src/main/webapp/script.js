@@ -41,11 +41,18 @@ function addRandomSoup() {
     soupContainer.innerText = soup;
 }
 
+function addRandom(lsts) {
+    const lst = lsts[Math.floor(Math.random() * lsts.length)];
+    return lst
+}
+
 /** Fetches the current date from the server and adds it to the page. */
 async function showServerString() {
   const responseFromServer = await fetch('/hello');
-  const textFromResponse = await responseFromServer.text();
+  const jsonFromResponse = await responseFromServer.json();
 
   const helloContainer = document.getElementById('hello-container');
-  helloContainer.innerText = textFromResponse;
+  helloContainer.innerText = addRandom(jsonFromResponse);
+
+  console.log(jsonFromResponse);
 }
