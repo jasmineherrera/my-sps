@@ -41,6 +41,18 @@
     width: 650px;
 }
 
+#name-input {
+    color: #8FA187;
+}
+
+#email-input {
+    color:#8FA187;
+}
+
+#mess-input {
+    color: #8FA187;
+}
+
 #links {
     text-align: center;
     margin-left: auto;
