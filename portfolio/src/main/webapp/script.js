@@ -42,8 +42,7 @@ function addRandomSoup() {
 }
 
 function addRandom(lsts) {
-    const lst = lsts[Math.floor(Math.random() * lsts.length)];
-    return lst
+    return lsts[Math.floor(Math.random() * lsts.length)];
 }
 
 /** Fetches the current date from the server and adds it to the page. */
