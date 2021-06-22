@@ -52,6 +52,4 @@ async function showServerString() {
 
   const helloContainer = document.getElementById('hello-container');
   helloContainer.innerText = addRandom(jsonFromResponse);
-
-  console.log(jsonFromResponse);
 }
