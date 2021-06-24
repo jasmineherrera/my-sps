@@ -8,8 +8,14 @@
     </head>
     <body>
         <div id="content">
-            <div id="heading">My Photos</div>
-            <p>This is where my photos will be. </p>
+            <div id="heading">Photos</div>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <p>Upload an image:</p>
+                <input type="file" name="image">
+                <br/><br/>
+                <button>Submit</button>
+            </form>
+            <p><a href="/list-images">Click here to see all of the uploaded images!</a></p>
         </div>
     </body>
 </html>
